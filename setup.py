@@ -7,9 +7,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "Lung-Cancer-Segmentation-Project"
-AUTHOR_USER_NAME = "entbappy"
-SRC_REPO = "cnnClassifier"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_USER_NAME = "Towet-Tum"
+SRC_REPO = "LungCancerSegmentation"
+AUTHOR_EMAIL = "daimacvdl@gmail.com"
 
 
 setuptools.setup(
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A radiology lung cancer segmentation app",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
